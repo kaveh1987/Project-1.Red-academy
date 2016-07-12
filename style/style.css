@@ -65,48 +65,75 @@
 
 }
 
-
-.title1{
-  width: 160px;
-}
-.div1{
-  background-image: url("../images/flower-bkgd.jpg");
- height: 500px;
-text-align: center;
-color: white;
-overflow: hidden;
+.img-aloha{
+  width: 200px;
 
 }
-.div2{
+
+.section-header{
+  background:
+
+  url("../images/banner-girl.png") no-repeat 100px,
+    url("../images/flower-bkgd.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+
+}
+.section-header1{
+  color: white;
   position: absolute;
-  top: 150px;
-  left: 200px;
+  top: 250px;
+  left: 400px;
+
 }
-.hdiv1{
-  font-family: 'Playfair Display Web', serif;
- font-size:20px;
- font-weight: normal;
- vertical-align: middle;
+.section-header2{
+  position: absolute;
+  color: white;
+  top: 300px;
+  left: 400px;
 }
-.hdiv2{
-  font-family: 'Playfair Display Web', serif;
- font-size: 60px;
- font-weight: bold;
- vertical-align: middle;
-}
+
+
 .banner-girl{
   position: absolute;
   left: 150px;
 
 }
-.fa fa-facebook{
-  <input type="text"
-  name="Facebook" />
+
+.dresses {
+  display: flex;
+  background-color: white;
+  align-items: center;
 
 }
-.dresses {
-  display: inline-block;
-}
+
 .dresses .dress {
-  background-color: red;
+  background-color: white;
+}
+
+.container{
+  background-color: grey;
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;;
+  align-content: center;
+
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item:nth-child(1) {
+
+}
+.item:nth-child(2) {
+
+  height: 200px;
+  align-items: flex-end;
+
+
+
 }
